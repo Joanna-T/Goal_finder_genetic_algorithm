@@ -253,7 +253,7 @@ function setup() {
   //SETUP
 
   createCanvas(screen_width + square_width + 50, screen_height);
-  frameRate(100);
+  frameRate(70);
   goal = createVector(width - ((3 * square_width) / 2 + 50), square_width / 2);
   start = createVector(square_width / 2, height - square_width / 2);
   initial_distance = goal.dist(start);

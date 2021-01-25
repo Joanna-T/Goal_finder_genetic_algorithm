@@ -431,11 +431,11 @@ function draw() {
   fill(255);
   textSize(13);
   text(
-    "*Reset all organism neural networks to random values. All learned behaviours will be discarded.",
+    "*Reset all organism neural networks to random values. All learned behaviours will be discarded. Click on squares to toggle obstacles",
     screen_width + 20,
     330,
     150,
-    100
+    150
   );
 }
 
